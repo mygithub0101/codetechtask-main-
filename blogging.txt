@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="posts">
+                <article class="post">
+                    <h2><a href="post.html">First Post Title</a></h2>
+                    <p class="meta"></p>
+                    <p>This is the content of the first blog hello everyone...</p>
+                </article>
+
+                <article class="post">
+                    <h2><a href="post.html">Second Post Title</a></h2>
+                    <p class="meta"></p>
+                    <p>This is the content of the second blog post. i hope everybody is doing good...</p>
+                </article>
+
+                <!-- Add more articles as needed -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> My Blog. </p>
+        </div>
+    </footer>
+</body>
+</html>
+CSS (styles.css)
+css
+Copy code
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    margin-bottom: 40px;
+}
+
+.post h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.post .meta {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
